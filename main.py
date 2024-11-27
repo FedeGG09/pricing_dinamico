@@ -37,7 +37,7 @@ sucursales = [
 
 # Paso 1: Datos básicos
 if st.session_state.current_step == 1:
-    st.title("Formulario de Cotización - Paso 1: Datos Básicos")
+    st.title("Formulario de Cotización")
 
     # Formulario para datos básicos
     with st.form("datos_basicos_form"):
