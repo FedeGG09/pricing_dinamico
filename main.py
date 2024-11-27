@@ -13,7 +13,7 @@ with cotizacion_col:
     st.text_input("Número de cotización:", "000000", disabled=True)
 
 # Cargar productos desde el archivo CSV
-csv_path = "C:\\Users\\Federico Gravina\\Downloads\\PRODUCTOS_UNICOS.csv"
+csv_path = "PRODUCTOS_UNICOS.csv"
 try:
     df_productos_csv = pd.read_csv(csv_path, encoding="latin1", header=None)  # Indica que no hay encabezado
     lista_productos = df_productos_csv[0].tolist()  # Usa la primera columna como lista de productos
